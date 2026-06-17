@@ -17,6 +17,7 @@ CATEGORY_MAP = {
     # P: Documents & Projects
     ".pdf": "P:Documents\\PDF",
     **{e: "P:Documents\\Office" for e in (".doc",".docx",".rtf",".xls",".xlsx",".csv",".ppt",".pptx",".odt",".ods",".txt")},
+    ".md": "P:Documents\\Notes",
     **{e: "P:Documents\\Ebooks" for e in (".epub",".mobi",".azw3")},
     **{e: "P:Projects\\Code"    for e in (".py",".js",".ts",".java",".c",".cpp",".cs",".go",".rs",".rb",".php",".html",".css",".json",".xml",".yaml",".yml",".sql",".sh",".ps1",".ipynb")},
     # R: Archives / Systems
